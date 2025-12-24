@@ -77,7 +77,7 @@ const Navbar = ({ currentPage, setCurrentPage, isScrolled, scrollToSection }) =>
         {/* Logo */}
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => handleNavClick('home')}>
           <div className="text-2xl font-bold tracking-tighter">
-            EMRG<span className="text-red-600">.</span>RECEPTIONIST
+            WEBRECEPTIONIST<span className="text-red-600">.</span>AI
           </div>
         </div>
 
@@ -155,7 +155,7 @@ const Footer = () => (
     <div className="container mx-auto grid md:grid-cols-4 gap-8 mb-8">
       <div className="col-span-1 md:col-span-2">
         <div className="text-2xl font-bold text-white mb-4 tracking-tighter">
-          EMRG<span className="text-red-600">.</span>RECEPTIONIST
+          WEBRECEPTIONIST<span className="text-red-600">.</span>AI
         </div>
         <p className="max-w-xs text-sm">
           Providing elite website receptionist and automation solutions for modern businesses.
@@ -179,7 +179,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="container mx-auto pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-xs">
-      <p>&copy; {new Date().getFullYear()} EMRG Bot Services. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} WebReceptionist.ai. All rights reserved.</p>
       <div className="flex gap-4 mt-4 md:mt-0">
         <span className="cursor-pointer hover:text-white">Privacy Policy</span>
         <span className="cursor-pointer hover:text-white">Terms of Service</span>
@@ -264,18 +264,26 @@ const HomePage = ({ scrollToSection, setCurrentPage }) => (
           INTELLIGENT WEBSITE RECEPTIONISTS
         </div>
 
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter mb-6 leading-tight">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight mb-6 leading-tight">
+          A 24/7 Website Receptionist That Answers Instantly and Captures Every Lead
+        </h1>
+
+        <h2 className="text-3xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight">
           THE FUTURE IS <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-500">CONVERSATIONAL</span>
           <span className="text-red-600">.</span>
-        </h1>
-
-        <h2 className="text-xl md:text-2xl font-bold mb-6 text-white/90">
-          And It Looks Like a Real Website Receptionist.
         </h2>
 
+        <p className="text-xl md:text-2xl font-bold mb-6 text-white/90">
+          And it looks — and performs — like a real website receptionist.
+        </p>
+
         <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 leading-relaxed">
-          Turn your website into a 24/7 digital front desk. Our AI-powered receptionists greet visitors instantly, ask the right questions, and route inquiries automatically — so every opportunity is handled professionally.
+          Turn your website into a 24/7 digital front desk. WebReceptionist.ai greets every visitor instantly, asks the right questions, captures contact details, and routes inquiries automatically — so no opportunity is missed.
+        </p>
+
+        <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 leading-relaxed font-semibold">
+          Think of it like a $75,000–$100,000 receptionist — without payroll, missed calls, or days off.
         </p>
 
         <div className="flex flex-wrap justify-center gap-6 mb-10 text-sm font-medium text-gray-300">
@@ -307,9 +315,9 @@ const HomePage = ({ scrollToSection, setCurrentPage }) => (
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-sm font-bold text-red-600 tracking-widest mb-2 uppercase">Engineered for Impact</h2>
-          <h3 className="text-3xl md:text-5xl font-bold mb-6">Receptionists That Don't Just Talk — <br/><span className="text-white/60">They Perform.</span></h3>
+          <h3 className="text-3xl md:text-5xl font-bold mb-6">Receptionists That Don't Just Talk — <br/><span className="text-white/60">They Perform</span></h3>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            This isn't generic AI. These receptionists are engineered to handle real business conversations at scale — designed for high-volume, high-value businesses where every inquiry matters.
+            This isn't generic AI. WebReceptionist.ai is engineered to handle real business conversations at scale — designed for high-volume, high-value businesses where speed and conversion matter.
           </p>
         </div>
 
@@ -319,21 +327,21 @@ const HomePage = ({ scrollToSection, setCurrentPage }) => (
               <Clock className="w-8 h-8 text-red-500" />
             </div>
             <h3 className="text-xl font-bold mb-3 text-white">24/7 Engagement</h3>
-            <p className="text-gray-400 leading-relaxed text-sm">Your receptionist responds instantly — day or night. Peak hours, weekends, and after-hours are covered automatically.</p>
+            <p className="text-gray-400 leading-relaxed text-sm">Your website receptionist responds instantly — day or night. Peak hours, weekends, and after-hours are covered automatically.</p>
           </div>
           <div className="group p-8 rounded-none border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] transition-all duration-300 hover:-translate-y-1">
             <div className="mb-6 bg-neutral-900 w-16 h-16 rounded-full flex items-center justify-center border border-white/5 group-hover:border-red-600/50 transition-colors">
               <UserCheck className="w-8 h-8 text-red-500" />
             </div>
             <h3 className="text-xl font-bold mb-3 text-white">Lead Qualification</h3>
-            <p className="text-gray-400 leading-relaxed text-sm">Every conversation starts with purpose. We ask structured questions to understand intent and capture contact details.</p>
+            <p className="text-gray-400 leading-relaxed text-sm">Every conversation starts with purpose. Structured questions identify intent and capture name, email, and phone early in the interaction.</p>
           </div>
           <div className="group p-8 rounded-none border border-white/10 bg-white/[0.02] hover:bg-white/[0.05] transition-all duration-300 hover:-translate-y-1">
             <div className="mb-6 bg-neutral-900 w-16 h-16 rounded-full flex items-center justify-center border border-white/5 group-hover:border-red-600/50 transition-colors">
               <Zap className="w-8 h-8 text-red-500" />
             </div>
             <h3 className="text-xl font-bold mb-3 text-white">Smart Routing</h3>
-            <p className="text-gray-400 leading-relaxed text-sm">Conversations don't stall. Route inquiries to the right team, book next steps, or hand off to a human with full context.</p>
+            <p className="text-gray-400 leading-relaxed text-sm">Conversations don't stall. Inquiries are routed to the right team member, next steps are booked, or conversations are handed off to a human with full context.</p>
           </div>
         </div>
       </div>
@@ -343,8 +351,8 @@ const HomePage = ({ scrollToSection, setCurrentPage }) => (
     <section id="comparison" className="py-24 px-6 bg-neutral-950">
       <div className="container mx-auto max-w-5xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">This Is Not A Chatbot</h2>
-          <p className="text-gray-400 max-w-xl mx-auto">One talks. The other performs. If your website plays a role in revenue, the difference matters.</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">This Is Not a Chatbot</h2>
+          <p className="text-gray-400 max-w-xl mx-auto">Chatbots talk. Website receptionists convert.<br/>If your website plays a role in revenue, the difference matters.</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-0 md:gap-8 items-stretch">
@@ -359,7 +367,7 @@ const HomePage = ({ scrollToSection, setCurrentPage }) => (
           </div>
 
           <div className="p-8 md:p-10 border-2 border-red-600 bg-neutral-900 rounded-2xl shadow-[0_0_50px_rgba(220,38,38,0.15)] flex flex-col relative scale-[1.02] z-10">
-              <div className="absolute top-0 right-0 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">RECOMMENDED</div>
+              <div className="absolute top-0 right-0 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-bl-lg uppercase">Recommended: Website Receptionist</div>
               <h3 className="text-xl font-bold text-white mb-6 uppercase tracking-wider border-b border-white/10 pb-4">Website Receptionist</h3>
               <ul className="space-y-4 text-white flex-1">
                 <li className="flex items-start gap-3"><CheckCircle className="w-5 h-5 text-red-500 mt-0.5"/> Greets every visitor proactively</li>
@@ -405,8 +413,8 @@ const HomePage = ({ scrollToSection, setCurrentPage }) => (
     <section className="py-24 px-6 bg-white text-black">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-black mb-4 tracking-tighter">BUILT FOR BUSINESSES <br/> WHERE EVERY INQUIRY COUNTS</h2>
-          <p className="text-gray-600 text-lg">If missed inquiries cost you money, this fits.</p>
+          <h2 className="text-3xl md:text-5xl font-black mb-4 tracking-tighter uppercase">Built for Businesses <br/> Where Every Inquiry Counts</h2>
+          <p className="text-gray-600 text-lg">If missed inquiries cost you money, WebReceptionist.ai fits.</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
@@ -646,9 +654,9 @@ const LandingPage = () => {
       {/* CTA / Contact Section (Global) */}
       <section id="contact" className="py-24 px-6 bg-red-600 text-white text-center">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter">READY TO DEPLOY?</h2>
+          <h2 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter uppercase">Ready to Deploy Your Website Receptionist?</h2>
           <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto font-medium">
-            Join forward-thinking brands using website receptionists to elevate how their websites engage, qualify, and convert visitors.
+            Join forward-thinking businesses using WebReceptionist.ai to respond faster, capture more leads, and convert more opportunities.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <button className="px-8 py-4 bg-black text-white font-bold text-sm tracking-widest hover:bg-neutral-900 transition-colors w-full sm:w-auto border border-black">
